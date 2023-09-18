@@ -1,5 +1,5 @@
 
-const weatehrAPIURL ="https://api.openweathermap.org";
+const weatehrAPIURL =`https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={d4b2a5bbe53401796d8f7d9b1f6d6115}`
 let weatherAPIKey = "d4b2a5bbe53401796d8f7d9b1f6d6115"
 let searchHistory =[]
 
